@@ -1,0 +1,22 @@
+[06:32:16] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[06:32:16] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.io.UncheckedIOException: java.nio.file.NoSuchFileException: /workspaces/CraftCoso/servidor_minecraft/.fabric/server/fabric-loader-server-0.16.3-minecraft-1.20.1.jar
+	at net.fabricmc.loader.impl.util.LoaderUtil.normalizeExistingPath(LoaderUtil.java:46)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.setValidParentClassPath(KnotClassDelegate.java:171)
+	at net.fabricmc.loader.impl.launch.knot.Knot.setValidParentClassPath(Knot.java:283)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.initialize(MinecraftGameProvider.java:297)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	... 1 more
+Caused by: java.nio.file.NoSuchFileException: /workspaces/CraftCoso/servidor_minecraft/.fabric/server/fabric-loader-server-0.16.3-minecraft-1.20.1.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixPath.toRealPath(UnixPath.java:825)
+	at net.fabricmc.loader.impl.util.LoaderUtil.normalizeExistingPath(LoaderUtil.java:44)
+	... 8 more

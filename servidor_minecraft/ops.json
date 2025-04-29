@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "uuid": "48508611-5ac5-3287-a37b-baccee41d47d",
+    "name": "TitoWilly",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d7b548a9-f0a1-34e9-9688-c1616d727bd6",
+    "name": "fandangolol",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ab860775-731c-3064-8322-1632b3c310de",
+    "name": "Cuak17",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f21a5e49-30a9-4ae4-a5eb-4512c3bee5ee",
+    "name": "brick1234",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b8ccce96-c699-316b-86ea-02864658d0f4",
+    "name": "Brick_123",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "76f6b0fb-aee9-47ad-a0e3-72d15e9c5347",
+    "name": "ile",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "892c3b24-1b13-3f88-9d0e-2b9ea98c6b3f",
+    "name": "Setback",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6847681d-2df8-39cc-9167-7215984360b5",
+    "name": "INTENCITIES",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8e6c0bba-cfff-3e11-bcf8-05f7893dd6f0",
+    "name": "ileo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a872d1bf-2f60-3e1a-8092-f9fd49441dc4",
+    "name": "kimis342",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

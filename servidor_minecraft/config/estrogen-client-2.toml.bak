@@ -1,0 +1,14 @@
+chestEstrogen = {}
+
+#.
+#Global settings for the chest feature
+[chestRenderingGlobal]
+	#.
+	#Enable chest feature rendering
+	chestFeatureRendering = true
+	#.
+	#Enable chest feature armor rendering
+	chestArmorRendering = true
+	#.
+	#Enable chest feature physics rendering
+	chestPhysicsRendering = true
